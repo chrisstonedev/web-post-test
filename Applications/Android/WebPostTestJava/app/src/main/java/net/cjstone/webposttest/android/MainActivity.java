@@ -319,7 +319,7 @@ public class MainActivity extends AppCompatActivity {
             HttpPost post = new HttpPost(url);
 
             List<NameValuePair> urlParameters = new ArrayList<>();
-            urlParameters.add(new BasicNameValuePair("source", "Android"));
+            urlParameters.add(new BasicNameValuePair("source", "Android (Java)"));
             urlParameters.add(new BasicNameValuePair(label, value));
 
             post.setEntity(new UrlEncodedFormEntity(urlParameters));
