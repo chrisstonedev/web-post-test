@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Web Post Test</string>
+    <string name="action_refresh">Refresh</string>
+</resources>
